@@ -1,6 +1,7 @@
-body {
+html, body {
     background-color: #f0f0f0;
     color: #252323;
+    height: 100%;
 }
 
 #content {
@@ -9,6 +10,7 @@ body {
   margin: 0 auto;
   padding: 0 20px;
   background-color: white;
+  box-sizing: border-box;
 }
 
 #headline {
