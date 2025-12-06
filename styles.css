@@ -1,6 +1,13 @@
 body {
-    background-color: #F7F7F7;
+    background-color: #f0f0f0;
     color: #252323;
+}
+
+#content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  background-color:white
 }
 
 #headline {
@@ -42,4 +49,58 @@ body {
   .btn-primary {
     background-color: #252323;
     border-color:#252323;
+  }
+
+  #marriottMannyImg {
+    width: 650px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  #ramp5Img {
+    width: 650px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  #broadLedgeImg {
+    width: 650px;
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  #mbcLedgeImg {
+    width: 400px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  #markerboardLedgeImg {
+    width: 400px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  #ranneyParkImg {
+    width: 650px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  #bondParkImg {
+    width: 650px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  #battlegroundSkateImg {
+    width: 650px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  #spotDesc {
+    margin: 0 auto;
+    width: 650px;
   }
