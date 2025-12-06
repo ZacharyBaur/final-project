@@ -1,5 +1,6 @@
 body {
     background-color: #F7F7F7;
+    color: #252323;
 }
 
 #headline {
@@ -12,10 +13,12 @@ body {
     background-image: url("images/MISkate Logo.png");
     background-size: contain;
     background-repeat: no-repeat;
-    width: 120px;       /* same width as logo */
-    height: 120px;      /* same height as logo */
+    width: 180px;
+    height: 180px;
     text-indent: -9999px;
     overflow: hidden;
+    display: block;
+    margin: 0px auto;
 }
 
 #map {
@@ -33,4 +36,10 @@ body {
 
   button {
     width: 640px;
+    height:60px;
+  }
+
+  .btn-primary {
+    background-color: #252323;
+    border-color:#252323;
   }
