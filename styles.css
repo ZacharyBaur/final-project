@@ -133,3 +133,13 @@ html, body {
     margin-top: 15px;
     width: 650px;
   }
+
+  #kickout {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  #kickout i {
+    font-size: 25px;
+  }
