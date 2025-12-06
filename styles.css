@@ -1,0 +1,36 @@
+body {
+    background-color: #F7F7F7;
+}
+
+#headline {
+    margin: 0px auto;
+    width: fit-content;
+    text-align: center;
+}
+
+.title {
+    background-image: url("images/MISkate Logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 120px;       /* same width as logo */
+    height: 120px;      /* same height as logo */
+    text-indent: -9999px;
+    overflow: hidden;
+}
+
+#map {
+    margin: 0px auto;
+    width: fit-content;
+}
+
+#collapse-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  button {
+    width: 640px;
+  }
