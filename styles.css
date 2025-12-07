@@ -87,6 +87,14 @@ html, body {
     border-color:#252323;
   }
 
+  .collapse-link {
+    color: #252323;
+  }
+
+  .collapse-link:hover {
+    text-decoration: none;
+  }
+
   #marriottMannyImg {
     width: 650px;
     display: block;
