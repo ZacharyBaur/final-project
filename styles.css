@@ -214,3 +214,9 @@ h3 {
   #kickout i {
     font-size: 30px;
   }
+
+  footer {
+    margin: 0 auto;
+    margin-top: 15px;
+    width: fit-content;
+  }
