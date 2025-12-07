@@ -89,6 +89,7 @@ html, body {
 
   .collapse-link {
     color: #252323;
+    margin: 0 auto;
   }
 
   .collapse-link:hover {
