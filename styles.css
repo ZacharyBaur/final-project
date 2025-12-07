@@ -104,49 +104,56 @@ html, body {
 
   #marriottMannyImg {
     width: 650px;
+    height: auto;
     display: block;
     margin: 0 auto;
   }
 
   #ramp5Img {
     width: 650px;
+    height: auto;
     display: block;
     margin: 0 auto;
   }
 
   #broadLedgeImg {
     width: 650px;
-    height: 300px;
+    height: auto;
     display: block;
     margin: 0 auto;
   }
 
   #mbcLedgeImg {
-    width: 400px;
+    width: 650px;
+    height: auto;
     display: block;
     margin: 0 auto;
   }
 
   #markerboardLedgeImg {
-    width: 400px;
+    width: 650px;
+    height: auto;
     display: block;
     margin: 0 auto;
   }
 
   #ranneyParkImg {
     width: 650px;
+    height: auto;
     display: block;
     margin: 0 auto;
   }
 
   #bondParkImg {
     width: 650px;
+    height: auto;
     display: block;
     margin: 0 auto;
   }
 
   #battlegroundSkateImg {
     width: 650px;
+    height: auto;
     display: block;
     margin: 0 auto;
   }
@@ -165,7 +172,6 @@ html, body {
     display: flex;
     align-items: center;
     gap: 8px;
-    margin-bottom: 25px;
   }
 
   #kickout i {
