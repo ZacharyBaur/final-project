@@ -157,6 +157,10 @@ html, body {
     width: 650px;
   }
 
+  .description {
+    margin-bottom: 15px;
+  }
+
   #kickout {
     display: flex;
     align-items: center;
