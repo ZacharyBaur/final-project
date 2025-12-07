@@ -55,6 +55,10 @@ html, body {
   width: 640px;
 }
 
+.underline {
+  text-decoration: underline;
+}
+
 #map {
     margin: 0px auto;
     width: fit-content;
