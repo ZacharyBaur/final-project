@@ -59,6 +59,10 @@ html, body {
   text-decoration: underline;
 }
 
+.bold {
+  font-weight: bold;
+}
+
 #map {
     margin: 0px auto;
     width: fit-content;
