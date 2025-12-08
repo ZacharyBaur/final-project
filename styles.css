@@ -76,6 +76,11 @@ h3 {
     width: fit-content;
 }
 
+#map iframe {
+  width: 640px;
+  height: 480px;
+}
+
 #collapse-area {
     display: flex;
     flex-direction: column;
@@ -219,4 +224,81 @@ h3 {
     margin: 0 auto;
     margin-top: 15px;
     width: fit-content;
+  }
+
+  @media only screen and (max-width: 700px) {
+    body, HTML {
+      padding: 0;
+      margin: 0;
+      background-color: white;
+    }
+    
+    #content {
+      width: 100%;
+      background: none;
+      padding: 0;
+  }
+    
+    #map iframe {
+      max-width: 100%;
+      height: 480px;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+
+    #webpage-details, #disclaimer-1, #disclaimer-2 {
+      max-width: 100%;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+
+    button, .btn-primary  {
+      width: 500px;
+      height: 50px;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+
+    #image {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+
+    #marriottMannyImg {
+      max-width: 100%;
+    }
+
+    #ramp5Img {
+      max-width: 100%;
+    }
+
+    #broadLedgeImg {
+      max-width: 100%;
+    }
+
+    #mbcLedgeImg {
+      max-width: 100%;
+    }
+
+    #markerboardLedgeImg {
+      max-width: 100%;
+    }
+
+    #ranneyParkImg {
+      max-width: 100%;
+    }
+
+    #bondParkImg {
+      max-width: 100%;
+    }
+
+    #battegroundSkateImg {
+      max-width: 100%;
+    }
+
+    #spotDesc {
+      max-width: 100%;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
   }
